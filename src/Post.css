@@ -1,0 +1,54 @@
+.post{
+    display: flex;
+    border-bottom: 1px solid var(--twitter-background);
+    align-items: flex-start;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.post:hover{
+    background-color: var(--twitter-background);
+}
+
+.post_body{
+    flex: 1;
+    padding: 10px;
+}
+.post_header .post_image img{
+    border-radius: 20px;
+    object-fit: contain;
+    width: 464px;
+}
+.post_footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.post_footer .MuiSvgIcon-root:hover{
+    color: var(--twitter-color);
+}
+
+.post_badge{
+    width: 16px!important;
+    margin-left: 5px!important;
+    margin-right: 3px!important; 
+}
+
+.post_headerspecial{
+    font-weight: 600;
+    font-size: 12px;
+    color: gray;
+}
+.post_headerText > h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.post_headerDescription{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.post_avatar{
+    padding: 20px;
+}
